@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C7506412A37517500B5A5E8 /* NotificacaoPoc Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4C7506402A37517500B5A5E8 /* NotificacaoPoc Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4C7506462A37517500B5A5E8 /* NotificacaoPocApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7506452A37517500B5A5E8 /* NotificacaoPocApp.swift */; };
+		4C7506482A37517500B5A5E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7506472A37517500B5A5E8 /* ContentView.swift */; };
+		4C75064A2A37517600B5A5E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C7506492A37517600B5A5E8 /* Assets.xcassets */; };
+		4C75064D2A37517600B5A5E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C75064C2A37517600B5A5E8 /* Preview Assets.xcassets */; };
+		4C7506602A3765CB00B5A5E8 /* NotificationAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C75065F2A3765CB00B5A5E8 /* NotificationAppApp.swift */; };
+		4C7506622A3765CB00B5A5E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7506612A3765CB00B5A5E8 /* ContentView.swift */; };
+		4C7506642A3765CC00B5A5E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C7506632A3765CC00B5A5E8 /* Assets.xcassets */; };
+		4C7506672A3765CC00B5A5E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C7506662A3765CC00B5A5E8 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C7506422A37517500B5A5E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C7506342A37517400B5A5E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C75063F2A37517500B5A5E8;
+			remoteInfo = "NotificacaoPoc Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C7506532A37517600B5A5E8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4C7506412A37517500B5A5E8 /* NotificacaoPoc Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C75063A2A37517500B5A5E8 /* NotificacaoPoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificacaoPoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C7506402A37517500B5A5E8 /* NotificacaoPoc Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NotificacaoPoc Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C7506452A37517500B5A5E8 /* NotificacaoPocApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificacaoPocApp.swift; sourceTree = "<group>"; };
+		4C7506472A37517500B5A5E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4C7506492A37517600B5A5E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C75064C2A37517600B5A5E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C75065D2A3765CB00B5A5E8 /* NotificationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C75065F2A3765CB00B5A5E8 /* NotificationAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationAppApp.swift; sourceTree = "<group>"; };
+		4C7506612A3765CB00B5A5E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4C7506632A3765CC00B5A5E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C7506662A3765CC00B5A5E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C75063D2A37517500B5A5E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C75065A2A3765CB00B5A5E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C7506332A37517400B5A5E8 = {
+			isa = PBXGroup;
+			children = (
+				4C7506442A37517500B5A5E8 /* NotificacaoPoc Watch App */,
+				4C75065E2A3765CB00B5A5E8 /* NotificationApp */,
+				4C75063B2A37517500B5A5E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C75063B2A37517500B5A5E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C75063A2A37517500B5A5E8 /* NotificacaoPoc.app */,
+				4C7506402A37517500B5A5E8 /* NotificacaoPoc Watch App.app */,
+				4C75065D2A3765CB00B5A5E8 /* NotificationApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C7506442A37517500B5A5E8 /* NotificacaoPoc Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				4C7506452A37517500B5A5E8 /* NotificacaoPocApp.swift */,
+				4C7506472A37517500B5A5E8 /* ContentView.swift */,
+				4C7506492A37517600B5A5E8 /* Assets.xcassets */,
+				4C75064B2A37517600B5A5E8 /* Preview Content */,
+			);
+			path = "NotificacaoPoc Watch App";
+			sourceTree = "<group>";
+		};
+		4C75064B2A37517600B5A5E8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4C75064C2A37517600B5A5E8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4C75065E2A3765CB00B5A5E8 /* NotificationApp */ = {
+			isa = PBXGroup;
+			children = (
+				4C75065F2A3765CB00B5A5E8 /* NotificationAppApp.swift */,
+				4C7506612A3765CB00B5A5E8 /* ContentView.swift */,
+				4C7506632A3765CC00B5A5E8 /* Assets.xcassets */,
+				4C7506652A3765CC00B5A5E8 /* Preview Content */,
+			);
+			path = NotificationApp;
+			sourceTree = "<group>";
+		};
+		4C7506652A3765CC00B5A5E8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4C7506662A3765CC00B5A5E8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C7506392A37517500B5A5E8 /* NotificacaoPoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C7506542A37517600B5A5E8 /* Build configuration list for PBXNativeTarget "NotificacaoPoc" */;
+			buildPhases = (
+				4C7506382A37517500B5A5E8 /* Resources */,
+				4C7506532A37517600B5A5E8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C7506432A37517500B5A5E8 /* PBXTargetDependency */,
+			);
+			name = NotificacaoPoc;
+			productName = NotificacaoPoc;
+			productReference = 4C75063A2A37517500B5A5E8 /* NotificacaoPoc.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		4C75063F2A37517500B5A5E8 /* NotificacaoPoc Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C7506502A37517600B5A5E8 /* Build configuration list for PBXNativeTarget "NotificacaoPoc Watch App" */;
+			buildPhases = (
+				4C75063C2A37517500B5A5E8 /* Sources */,
+				4C75063D2A37517500B5A5E8 /* Frameworks */,
+				4C75063E2A37517500B5A5E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NotificacaoPoc Watch App";
+			productName = "NotificacaoPoc Watch App";
+			productReference = 4C7506402A37517500B5A5E8 /* NotificacaoPoc Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C75065C2A3765CB00B5A5E8 /* NotificationApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C7506682A3765CC00B5A5E8 /* Build configuration list for PBXNativeTarget "NotificationApp" */;
+			buildPhases = (
+				4C7506592A3765CB00B5A5E8 /* Sources */,
+				4C75065A2A3765CB00B5A5E8 /* Frameworks */,
+				4C75065B2A3765CB00B5A5E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationApp;
+			productName = NotificationApp;
+			productReference = 4C75065D2A3765CB00B5A5E8 /* NotificationApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C7506342A37517400B5A5E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4C7506392A37517500B5A5E8 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					4C75063F2A37517500B5A5E8 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					4C75065C2A3765CB00B5A5E8 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4C7506372A37517400B5A5E8 /* Build configuration list for PBXProject "NotificacaoPoc" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C7506332A37517400B5A5E8;
+			productRefGroup = 4C75063B2A37517500B5A5E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C7506392A37517500B5A5E8 /* NotificacaoPoc */,
+				4C75063F2A37517500B5A5E8 /* NotificacaoPoc Watch App */,
+				4C75065C2A3765CB00B5A5E8 /* NotificationApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C7506382A37517500B5A5E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C75063E2A37517500B5A5E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C75064D2A37517600B5A5E8 /* Preview Assets.xcassets in Resources */,
+				4C75064A2A37517600B5A5E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C75065B2A3765CB00B5A5E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C7506672A3765CC00B5A5E8 /* Preview Assets.xcassets in Resources */,
+				4C7506642A3765CC00B5A5E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C75063C2A37517500B5A5E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C7506482A37517500B5A5E8 /* ContentView.swift in Sources */,
+				4C7506462A37517500B5A5E8 /* NotificacaoPocApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C7506592A3765CB00B5A5E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C7506622A3765CB00B5A5E8 /* ContentView.swift in Sources */,
+				4C7506602A3765CB00B5A5E8 /* NotificationAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C7506432A37517500B5A5E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C75063F2A37517500B5A5E8 /* NotificacaoPoc Watch App */;
+			targetProxy = 4C7506422A37517500B5A5E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4C75064E2A37517600B5A5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C75064F2A37517600B5A5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4C7506512A37517600B5A5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NotificacaoPoc Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 964GK867Y7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificacaoPoc;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ana.NotificationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		4C7506522A37517600B5A5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NotificacaoPoc Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 964GK867Y7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificacaoPoc;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ana.NotificationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		4C7506552A37517600B5A5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 964GK867Y7;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificacaoPoc;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ana.NotificacaoPoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4C7506562A37517600B5A5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 964GK867Y7;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificacaoPoc;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ana.NotificacaoPoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C7506692A3765CC00B5A5E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NotificationApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 964GK867Y7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ana.NotificationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C75066A2A3765CC00B5A5E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NotificationApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 964GK867Y7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ana.NotificationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C7506372A37517400B5A5E8 /* Build configuration list for PBXProject "NotificacaoPoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C75064E2A37517600B5A5E8 /* Debug */,
+				4C75064F2A37517600B5A5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C7506502A37517600B5A5E8 /* Build configuration list for PBXNativeTarget "NotificacaoPoc Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C7506512A37517600B5A5E8 /* Debug */,
+				4C7506522A37517600B5A5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C7506542A37517600B5A5E8 /* Build configuration list for PBXNativeTarget "NotificacaoPoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C7506552A37517600B5A5E8 /* Debug */,
+				4C7506562A37517600B5A5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C7506682A3765CC00B5A5E8 /* Build configuration list for PBXNativeTarget "NotificationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C7506692A3765CC00B5A5E8 /* Debug */,
+				4C75066A2A3765CC00B5A5E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C7506342A37517400B5A5E8 /* Project object */;
+}
